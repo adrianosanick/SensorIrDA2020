@@ -1,0 +1,26 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP30F4013 -DL -SSA -O11111114 -fo1E-5 -N"C:\Users\aluno\Sanick Dropbox\Adriano Padilha\Sanick\Sanick2020\SensorIrDA2020\Firmware\IrDA2020.mcpds" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -SP"C:\Users\aluno\Sanick Dropbox\Adriano Padilha\Sanick\Sanick2020\SensorIrDA2020\Firmware\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\Uses\" -IP"C:\Users\aluno\Sanick Dropbox\Adriano Padilha\Sanick\Sanick2020\SensorIrDA2020\Firmware\" "SensorIrDA2020.c" "InterruptUART.c" "InterruptADC.c" "InterruptTimers.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_ADC_1_p24FJ_p30.mcl" "__Lib_EEPROM_p30.mcl" "__Lib_UART_12_p30.mcl" "__Lib_BitReverseComplex.mcl" "__Lib_FirRadix.mcl" "__Lib_IirRadix.mcl" "__Lib_Matrices.mcl" "__Lib_Vectors.mcl"	 
+diagnostics: 0	121	Loading...	 
+diagnostics: 0	122	Compilation Started	definesensor.h
+diagnostics: 101	123	Compiled Successfully	SensorIrDA2020.c
+diagnostics: 0	122	Compilation Started	definesensor.h
+hint: 0	1004	interrupt handler (UART1_RXINT at 0x0026)	InterruptUART.c
+hint: 0	1004	interrupt handler (UART2_RXINT at 0x0044)	InterruptUART.c
+diagnostics: 40	123	Compiled Successfully	InterruptUART.c
+hint: 32	1164	Variable 'uart_rd' has been eliminated by optimizer	InterruptUART.c
+diagnostics: 0	122	Compilation Started	definesensor.h
+hint: 0	1004	interrupt handler (ADC1Int at 0x002A)	InterruptADC.c
+diagnostics: 21	123	Compiled Successfully	InterruptADC.c
+hint: 11	1164	Variable 'IrDA' has been eliminated by optimizer	InterruptADC.c
+diagnostics: 0	122	Compilation Started	definesensor.h
+hint: 0	1004	interrupt handler (Timer1_Interrup at 0x001A)	InterruptTimers.c
+hint: 0	1004	interrupt handler (Timer2_Interrup at 0x0020)	InterruptTimers.c
+hint: 0	1004	interrupt handler (Timer4_Interrup at 0x003E)	InterruptTimers.c
+diagnostics: 19	123	Compiled Successfully	InterruptTimers.c
+diagnostics: 0	127	All files Compiled in 813 ms	 
+hint: 0	1144	Used RX (bytes): 26 (81%)   Free RX (bytes): 6 (19%)	Used RX (bytes): 26 (81%)   Free RX (bytes): 6 (19%)
+hint: 0	1144	Static RAM (bytes): 48   Dynamic RAM (bytes): 2000	Static RAM (bytes): 48   Dynamic RAM (bytes): 2000
+hint: 0	1144	Used ROM (bytes): 1410 (4%)  Free ROM (bytes): 31358 (96%)	Used ROM (bytes): 1410 (4%)  Free ROM (bytes): 31358 (96%)
+diagnostics: 0	125	Project Linked Successfully	IrDA2020.mcpds
+diagnostics: 0	128	Linked in 109 ms	 
+diagnostics: 0	129	Project 'IrDA2020.mcpds' completed: 1047 ms	 
+diagnostics: 0	103	Finished successfully: 18 mai 2020, 01:33:16	IrDA2020.mcpds

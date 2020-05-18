@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<MCU_DEVICE_FLAGS>
+  <DEVICE>
+    <DEVICE_NAME>P30F4013</DEVICE_NAME>
+    <DEVICE_CLOCK>80</DEVICE_CLOCK>
+    <SETTINGS>
+      <COUNT>13</COUNT>
+      <SETTING0>
+        <NAME>Oscillator</NAME>
+        <DESCRIPTION>HS2 w/PLL 16x</DESCRIPTION>
+      </SETTING0>
+      <SETTING1>
+        <NAME>Clock Switching and Monitor</NAME>
+        <DESCRIPTION>Sw Disabled, Mon Disabled</DESCRIPTION>
+      </SETTING1>
+      <SETTING2>
+        <NAME>WDT Prescaler B</NAME>
+        <DESCRIPTION>1:2</DESCRIPTION>
+      </SETTING2>
+      <SETTING3>
+        <NAME>WDT Prescaler A</NAME>
+        <DESCRIPTION>1:512</DESCRIPTION>
+      </SETTING3>
+      <SETTING4>
+        <NAME>Watchdog Timer</NAME>
+        <DESCRIPTION>Enabled</DESCRIPTION>
+      </SETTING4>
+      <SETTING5>
+        <NAME>POR Timer Value</NAME>
+        <DESCRIPTION>64ms</DESCRIPTION>
+      </SETTING5>
+      <SETTING6>
+        <NAME>Brown Out Voltage</NAME>
+        <DESCRIPTION>Reserved</DESCRIPTION>
+      </SETTING6>
+      <SETTING7>
+        <NAME>PBOR Enable</NAME>
+        <DESCRIPTION>Enabled</DESCRIPTION>
+      </SETTING7>
+      <SETTING8>
+        <NAME>Master Clear</NAME>
+        <DESCRIPTION>Enabled</DESCRIPTION>
+      </SETTING8>
+      <SETTING9>
+        <NAME>General Code Segment Write Protect</NAME>
+        <DESCRIPTION>Enabled</DESCRIPTION>
+      </SETTING9>
+      <SETTING10>
+        <NAME>General Segment Code Protection</NAME>
+        <DESCRIPTION>Enabled</DESCRIPTION>
+      </SETTING10>
+      <SETTING11>
+        <NAME>Comm Channel Select</NAME>
+        <DESCRIPTION>Use PGC/EMUC and PGD/EMUD</DESCRIPTION>
+      </SETTING11>
+      <SETTING12>
+        <NAME>Background Debug</NAME>
+        <DESCRIPTION>Disabled</DESCRIPTION>
+      </SETTING12>
+    </SETTINGS>
+  </DEVICE>
+</MCU_DEVICE_FLAGS>
